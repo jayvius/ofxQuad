@@ -14,7 +14,7 @@ public:
     void draw();
 
 private:
-	ofEasyCam _camera;
+    ofEasyCam _camera;
     ofMaterial _material;
     ofLight _light1;
     ofLight _light2;

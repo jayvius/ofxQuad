@@ -11,9 +11,9 @@ QuadDemo::QuadDemo(std::string meshName, int numSubdivisions, bool wireframe, bo
 
 void QuadDemo::setup()
 {
-	ofSetVerticalSync(false);
-	ofEnableAlphaBlending();
-	ofBackground(255);
+    ofSetVerticalSync(false);
+    ofEnableAlphaBlending();
+    ofBackground(255);
 
     _light1.setPosition(500, 500, 500);
     _light1.setDiffuseColor(ofColor(196, 196, 196));
@@ -59,7 +59,7 @@ void QuadDemo::setup()
 void QuadDemo::draw()
 {
     ofSetColor(0);
-	ofEnableDepthTest();
+    ofEnableDepthTest();
     ofEnableLighting();
 
     _light1.enable();
